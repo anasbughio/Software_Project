@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PLA Quiz - Select Topic</title>
+  <link rel="stylesheet" href="../public/css/quiz.css" />
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <h1>PLA Quiz</h1>
+    <nav>
+      <ul class="nav-links">
+        
+
+        <li><a href="../../Frontend/index.html" id="dashboardLink">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section">
+    <div class="quiz-container">
+      <!-- Topic Selection -->
+      <div class="topic-select">
+        <label for="quiz-topic">Select Quiz Topic:</label>
+        <select id="quiz-topic">
+          <option value="general">General Knowledge</option>
+          <option value="science">Science</option>
+          <option value="math">Mathematics</option>
+        </select>
+        <button id="load-quiz" onclick="loadQuiz()">Load Quiz</button>
+      </div>
+
+      <!-- Quiz Content (hidden until a topic is loaded) -->
+      <div id="quiz-content" style="display: none;">
+        <h2 id="quiz-question">Question will appear here</h2>
+        <div class="quiz-options">
+          <label class="quiz-option">
+            <input type="radio" name="quiz" value="a" /> Option A
+          </label>
+          <label class="quiz-option">
+            <input type="radio" name="quiz" value="b" /> Option B
+          </label>
+          <label class="quiz-option">
+            <input type="radio" name="quiz" value="c" /> Option C
+          </label>
+          <label class="quiz-option">
+            <input type="radio" name="quiz" value="d" /> Option D
+          </label>
+        </div>
+        <button onclick="submitQuiz()">Submit Answer</button>
+        <div id="quiz-feedback"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Personalized Learning Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="../public/js/quiz.js"></script>
+</body>
+</html>

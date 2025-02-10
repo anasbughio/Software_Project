@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Topics</title>
+    <link rel="stylesheet" href="../public/css/content.css">
+</head>
+<body>
+
+    <section class="container">
+        <h1 style="color: white;">Course Topics</h1>
+        <div class="topics">
+            <button class="topic-btn" data-topic="intro" >Introduction to Programming</button>
+            <button class="topic-btn" data-topic="control-flow">Control Flow & Loops</button>
+            <button class="topic-btn" data-topic="functions">Functions in JavaScript</button>
+        </div>
+
+        <div id="content-area">
+            <h2 id="topic-title" style="color: white;">Select a Topic</h2>
+            <p id="topic-text" style="color: white;">Click on a topic to see the content.</p>
+            <div id="video-container">
+                <iframe id="topic-video" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

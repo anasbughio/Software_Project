@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MDCAT Course Topics</title>
+  <link rel="stylesheet" href="../public/css/cource.css" />
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <h1>MDCAT Course Topics</h1>
+    <nav>
+      <ul class="nav-links">
+        
+        <li><a href="../index.html" id="dashboardLink">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Course Topics Section -->
+  <section class="course-topics">
+    <h2>Topics</h2>
+    <div class="topic-container">
+      <div class="topic-card" onclick="navigateTo('innercontent.html')">
+         <h3>Topic 1: Introduction to MDCAT</h3>
+         <p>Overview of exam format, syllabus, and preparation tips.</p>
+         <button class="quiz-btn" onclick="event.stopPropagation(); navigateTo('quiz.html');">Quiz</button>
+      </div>
+      <div class="topic-card" onclick="navigateTo('innercontent.html')">
+         <h3>Topic 2: Biology</h3>
+         <p>Fundamental biology concepts required for the exam.</p>
+         <button class="quiz-btn" onclick="event.stopPropagation(); navigateTo('quiz.html');">Quiz</button>
+      </div>
+      <div class="topic-card" onclick="navigateTo('innercontent.html')">
+         <h3>Topic 3: Chemistry</h3>
+         <p>Chemistry principles, reactions, and periodic table review.</p>
+         <button class="quiz-btn" onclick="event.stopPropagation(); navigateTo('quiz.html');">Quiz</button>
+      </div>
+      <div class="topic-card" onclick="navigateTo('topic4.html')">
+         <h3>Topic 4: Physics</h3>
+         <p>Key physics topics including mechanics and electricity.</p>
+         <button class="quiz-btn" onclick="event.stopPropagation(); navigateTo('quiz.html');">Quiz</button>
+      </div>
+      <div class="topic-card" onclick="navigateTo('innercontent.html')">
+         <h3>Topic 5: Logical Reasoning</h3>
+         <p>Enhance your problem solving and reasoning skills.</p>
+         <button class="quiz-btn" onclick="event.stopPropagation(); navigateTo('quiz.html');">Quiz</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Personalized Learning Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="../public/js/couce.js"></script>
+</body>
+</html>

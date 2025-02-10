@@ -1,0 +1,56 @@
+
+/* Container */
+.container {
+    width: 60%;
+    margin: auto;
+    background: #3d084a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Topic Buttons */
+.topics {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.topic-btn {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topic-btn:hover {
+    background-color: #ff4757;
+}
+
+/* Content Area */
+#content-area {
+    text-align: center;
+    background: #2b0739;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#topic-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Video */
+#video-container {
+    margin-top: 15px;
+}
+
+iframe {
+    width: 80%;
+    height: 300px;
+    border-radius: 8px;
+    display: none;
+}

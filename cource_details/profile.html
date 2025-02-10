@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="../public/css/profile.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>User Profile</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../../Frontend/index.html">Home</a></li>
+        <!-- <li><a href="course.html">Courses</a></li> -->
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="profile-container">
+    <div class="profile-card">
+      <div class="profile-image">
+        <img id="profile-pic" src="profile.jpg" alt="User Profile">
+        <input type="file" id="upload-pic" accept="image/*">
+      </div>
+      <h2 class="profile-name">Anas</h2>
+      <p class="profile-email">anas@example.com</p>
+      <p class="profile-role">Student | Web Developer</p>
+
+      <!-- Profile Details -->
+      <div class="profile-details">
+        <h3>About Me</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Passionate about learning and technology.</p>
+
+        <h3>Courses Enrolled</h3>
+        <ul class="courses-list">
+          <li>Fundamentals of Programming</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Web Development</li>
+        </ul>
+
+        <button id="edit-profile">Edit Profile</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Personalized Learning Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="../public/js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e0635;
+    color: #fff;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #ff6b81;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  .nav-links a:hover {
+    color: #fce4ec;
+  }
+  
+  /* Profile Section */
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .profile-card {
+    background: #3d084a;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff6b81;
+  }
+  
+  .profile-image input {
+    display: block;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #ff6b81;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-name {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .profile-email {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .profile-role {
+    font-size: 16px;
+    color: #ff6b81;
+    margin-bottom: 15px;
+  }
+  
+  /* Profile Details */
+  .profile-details {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .profile-details h3 {
+    font-size: 18px;
+    color: #ff6b81;
+    margin-bottom: 5px;
+  }
+  
+  .profile-details p {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .courses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .courses-list li {
+    background: #ff6b81;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  /* Buttons */
+  button {
+    background: #ff6b81;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ff4757;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #3d084a;
+    font-size: 14px;
+    color: #ccc;
+  }
+  

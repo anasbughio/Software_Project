@@ -1,0 +1,118 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #5e306b; /* Pinkish header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  .nav-links a:hover {
+    color: #fce4ec;
+  }
+  
+  /* Course Topics Section */
+  .course-topics {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .course-topics h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color:  #5e306b;
+  }
+  
+  /* Topic Container & Card Styles – One card per row */
+  .topic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .topic-card {
+    position: relative; /* Enables absolute positioning for the quiz button */
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Quiz Button Styles */
+  .quiz-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff6b81;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .quiz-btn:hover {
+    background: #ff4757;
+  }
+  .topic-card h3 {
+    color: 
+    #5e306b; /* Pinkish accent */
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .topic-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #f0f2f5;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+  }
+  

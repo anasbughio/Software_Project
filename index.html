@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalized Learning Assistant Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <h1>PLA Dashboard</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="./index.html" id="homeLink">Home</a></li>
+        <!-- <li><a href="#" id="coursesLink">Courses</a></li>
+        <li><a href="#" id="progressLink">Progress</a></li> -->
+        <li><a href="./cource_details/profile.html" id="profileLink">Profile</a></li>
+        <li><a href="./cource_details/login.html" id="profileLink">login</a></li>
+        <li><a href="./cource_details/signup.html" id="profileLink">signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Dashboard Section -->
+  <section class="dashboard">
+    <div class="progress-section">
+      <h2>Your Progress</h2>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 70%;"></div>
+      </div>
+    </div>
+    
+    <h2>Available Courses</h2>
+    <div class="card-container">
+      <div class="card" onclick="navigateTo('./cource_details/mdcat.html')">
+        <h3>MDCAT</h3>
+        <p>Prepare for MDCAT with curated materials and quizzes.</p>
+      </div>
+      <div class="card" onclick="navigateTo('./cource_details/mdcat.html')">
+        <h3>ECAT</h3>
+        <p>Access ECAT study resources and practice tests.</p>
+      </div>
+      <div class="card" onclick="navigateTo('./cource_details/mdcat.html')">
+        <h3>CSS</h3>
+        <p>Learn CSS with interactive examples and labs.</p>
+      </div>
+      <div class="card" onclick="navigateTo('./cource_details/mdcat.html')">
+        <h3>PCS</h3>
+        <p>Improve your PCS skills with detailed lessons.</p>
+      </div>
+      <div class="card" onclick="navigateTo('./cource_details/mdcat.html')">
+        <h3>NTS</h3>
+        <p>Track your NTS progress with smart analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Personalized Learning Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
